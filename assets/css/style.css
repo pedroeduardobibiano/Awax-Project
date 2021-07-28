@@ -399,6 +399,95 @@ header{
     background-color: #b28756;
 }
 
+.section-client{
+    height: calc(100vh - 350px);
+    display:block;
+    max-width: 1140px;
+    margin: auto;
+}
+.section-tittle{
+    text-transform: uppercase;
+}
+
+.section-tittle--client{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 70px;
+    padding-bottom: 15px;
+}
+.section-subtittle--client{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #ccc;
+    font-weight: 600;
+}
+.section-imagem--client{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    margin-top: 35px;
+}
+.section-imagem--client img{
+    width: 120px;
+}
+.section-photo--tittle--client{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.section-photo--tittle--client-name h1{
+    font-size: 16px;
+    font-weight: bold;
+}
+.section-photo--tittle--client-departament h2{
+    font-size: 15px;
+    font-weight: 600;
+    color: #555;
+    margin-top: 5px;
+}
+.section-icon--text-client-coma{
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin-top: 25px;
+    margin-bottom: 6px;
+}
+.section-icon--client-coma img{
+    height: 18px;
+    width: 27px;
+}
+.section-icon--text-client-text{
+    text-transform: none;
+    line-height: 25px;
+    text-align: center;
+}
+.section-client .sliders-pointers{
+    margin-top: 30px;
+    height: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.section-client .pointer{
+    width: 15px;
+    height: 15px;
+    border: 2px solid #b28756;
+    border-radius: 8px;
+    margin-right: 5px;
+    cursor: pointer;
+    margin-top: 40px;
+}
+.section-client .pointer.active{
+    background-color: #b28756;
+}
+
+
 .section-map{
     background-image: url(../images/mapa.jpg);
     background-size: cover;
