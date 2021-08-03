@@ -1385,6 +1385,15 @@ input[name='message']{
     padding-bottom: 150px;
     margin-bottom: 40px;
 }
+
+
+.section-icon--text-client-text{
+    text-transform: none;
+    line-height: 25px;
+    text-align: center;
+    margin-right: 15px;
+    margin-left: 15px;
+}
 }
 
 
