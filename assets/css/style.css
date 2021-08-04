@@ -1634,3 +1634,100 @@ input[name='message']{
         margin-left: 25px;
     }
 }
+
+@media(max-width:950px){
+    .footer-global{
+        background-color: #000;
+        display: flex;
+        justify-content: center;
+    }
+
+
+    .footer-all{
+        max-width: 1340px;
+        padding: 5px;
+        display: flex;
+        margin: 5px;
+        margin: auto;
+        padding-bottom: 10px;
+        flex-wrap: wrap;
+    }
+    .footer-1{
+        width: 250px;
+        display: flex;
+        justify-content: center;
+        padding: 5px;
+        padding-top: 15px;
+    }
+    .fotter-down{
+        position: relative;
+        top: 485px;
+        color: rgba(255, 255, 255, 0.644);
+        display: inline-flex;
+        height: 20px;
+        right: 200px;
+        font-size: 12px;
+        font-weight: 600;
+        flex-wrap: wrap;
+        display: none;
+    }
+    .footer-1 a{
+        border-radius: 20px;
+        display: inline-flex;
+        width: 24px;
+        height: 24px;
+        align-items: center;
+        justify-content: center;
+        background-color: #333;
+        margin: 3px;
+    }
+    .final-division{
+        display: inline-flex;
+        background-color: #000;
+        border-top:2px solid #555;
+        width: 100%;
+        height: 25px;
+    }
+    
+    
+    
+    .footer-2{
+        width: 80vw;
+        padding-right: 55px;
+        font-size: 13px;
+        color: #555;
+        font-weight: 600;
+        line-height: 23px;
+    }
+    .footer-3{
+        width: 100%;
+        padding-right: 90px;
+        display: flex;
+        justify-content: center;
+        margin: auto;
+    }
+    .conteudo-footer3{
+        width: 80%;
+        background-color: #000;
+        padding: 5px;
+        margin: 5px;
+        height: 230px;
+        margin-top: 10px;
+    }
+
+
+}
+
+@media(max-width:430px){
+    .icon img{
+        background-color: #b28756;
+        width: 25px;
+        padding: 8px;
+        height: 35px;
+        width: 35px;
+        border-radius: 50px;
+        position: relative;
+        bottom: 75px;
+        left: 195px;
+    }
+}
