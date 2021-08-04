@@ -935,6 +935,129 @@ input[type="submit"]{
     margin-bottom: 30px;
 }
 
+.footer-global{
+    background-color: #000;
+    display: flex;
+    justify-content: center;
+}
+.icon{
+    padding: 53px;
+}
+.icon img{
+    background-color: #b28756;
+    width: 25px;
+    transform: rotate(180deg);
+    padding: 10px;
+    width: 50px;
+    height: 50px;
+    border-radius: 50px;
+    position: relative;
+    bottom: 75px;
+    left: 25px;
+}
+
+
+.footer-all{
+    max-width: 1340px;
+    padding: 5px;
+    display: flex;
+    margin: 5px;
+    margin: auto;
+    padding-bottom: 10px;
+}
+.footer-1{
+    width: 30vw;
+    display: flex;
+    justify-content: center;
+    padding: 5px;
+    padding-top: 15px;
+}
+.fotter-down{
+    position: relative;
+    top: 200px;
+    color: rgba(255, 255, 255, 0.644);
+    display: inline-flex;
+    height: 20px;
+    right: 200px;
+    font-size: 12px;
+    font-weight: 600;
+}
+.footer-1 a{
+    border-radius: 20px;
+    display: inline-flex;
+    width: 24px;
+    height: 24px;
+    align-items: center;
+    justify-content: center;
+    background-color: #333;
+    margin: 3px;
+}
+.final-division{
+    display: inline-flex;
+    background-color: #000;
+    border-top:2px solid #555;
+    width: 100%;
+    height: 25px;
+}
+
+
+
+.footer-2{
+    width: 30vw;
+    padding: 15px;
+    font-size: 13px;
+    color: #555;
+    font-weight: 600;
+    line-height: 23px;
+}
+.footer-3{
+    width: 30vw;
+    padding-right: 23px;
+    margin-right: 50px;
+}
+.conteudo-footer3{
+    background-color: #333;
+    padding: 5px;
+    margin: 5px;
+    height: 230px;
+    margin-top: 10px;
+}
+.conteudo1{
+    padding: 5px;
+    text-transform: uppercase;
+    display: flex;
+    justify-content: center;
+    padding-top: 35px;
+}
+.input2{
+    width: 250px;
+    background-color: #333;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    border-bottom: 2px solid #555;
+    color: #fff;
+    font-size: 15px;
+}
+::-webkit-input-placeholder{ color: #999; text-align: center;text-transform: uppercase;}
+.input2:-moz-placeholder { color: #999; text-align: center; text-transform: uppercase;}
+.input2:-moz-placeholder { color: #999; text-align: center; text-transform: uppercase;}
+
+.conteudo2{
+    padding: 5px;
+    display: flex;
+    justify-content: center;
+    margin-top: 15px;
+}
+.button2{
+    padding: 13px;
+    background-color: #b28756;
+    width: 180px;
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+}
+
 
 
 
